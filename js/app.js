@@ -1,0 +1,73 @@
+let numberOfBottles = 10;
+const line1 = "green bottles hanging on the wall";
+const line2 = "and if one green bottle, should accidentally fall, there will be"
+
+console.log(numberOfBottles);
+console.log(line1);
+console.log(numberOfBottles);
+console.log(line1);
+console.log(line2);
+console.log(--numberOfBottles);
+
+console.log(numberOfBottles);
+console.log(line1);
+console.log(numberOfBottles);
+console.log(line1);
+console.log(line2);
+console.log(--numberOfBottles);
+
+let x = 5 + 5;
+console.log(x);
+//month 2
+let bank = 5;
+let income = 6;
+
+bank += income;
+
+console.log(bank); //expect 11
+
+//month 2
+bank += income;
+
+console.log(bank); //expect 17
+
+//month 3
+income +=3;
+bank+=income;
+console.log(bank); // expect 26
+
+console.log(0%2);
+console.log(1%2);
+console.log(2%2);
+console.log(3%2);
+console.log(4%2);
+
+
+//130 seconds, how many minutes and seconds
+let seconds = 130;
+let minutes = seconds / 60;
+console.log(minutes); // TODO Remove decimals
+console.log (130%60);
+
+
+
+let gold = 50;
+//we pick up 10 gold
+gold+= 10;
+console.log(gold);
+//we get robbed
+gold -=20;
+console.log(gold);
+//we play cards and win 2X
+gold *= 2;
+console.log(gold);
+//tax from goblin
+gold /= 2;
+console.log(gold);
+
+
+
+let input1Q4 = 11;
+let input2Q4 = 4;
+let output
+;
