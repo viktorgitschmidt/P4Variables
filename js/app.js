@@ -86,13 +86,39 @@ console.log(newTotalWins);
 numberOfWins += 1;
 console.log(numberOfWins);
 
+
+
+// Implement a program that takes an input for km/h and displays the result in m/s. Input: 72 Output: 20
+const kmhText = "Kilometers per hour, is equivalent to"
+const msText = "Meters per second"
+let kmh = 80;
+let ms = kmh / 3.6;
+console.log(kmh);
+console.log(kmhText);
+console.log(ms);
+console.log(msText);
+
+// Implement a program that takes a number input for minutes and displays the result in seconds. Input: 3 utput: 180
+const minuterText = "minutes is equivalent to";
+const sekunderText = "sekunder";
+let minuter = 3;
+let sekunder = minuter * 60;
+console.log(minuter);
+console.log(minuterText);
+console.log(sekunder);
+console.log(sekunderText);
+
 // Implement a program that takes two numbers as input and displays their division result.
 // Input: 11, 4
 // Output: 2.75
-
 let input1Q4 = 11;
 let input2Q4 = 4;
 let output2Q4 = input1Q4 / input2Q4;
 console.log(output2Q4);
 
 
+//Implement a program that calculates the remainder of dividing two numbers and displays the result. Input: 11,4. Output: 3
+let tal1 = 11;
+let tal2 = 4;
+let tal3 = tal1 % tal2;
+console.log(tal3);
