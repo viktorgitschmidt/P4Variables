@@ -122,3 +122,34 @@ let tal1 = 11;
 let tal2 = 4;
 let tal3 = tal1 % tal2;
 console.log(tal3);
+
+/*EXERCISE: P5-Operators
+● From here on out, you will have to Google to find the right functions to use. */
+
+//Implement a program that calculates the area of a circle using a number input for the radius and displays the result. Input: 2 Output: 12,56…
+let radius = 2;
+let area = Math.PI * (radius ** 2);
+console.log(area);
+
+//Implement a program that takes a number input and displays its negation. Input: 11 Output: -11
+let num = 11;
+let negated = -num;
+console.log(negated);
+
+//Implement a program that calculates the BMI of a person using their weight in kilograms and height in meters. Display the BMI value. Input: 70, 1,82 Output: 21,13…
+let weight = 70;
+let height = 1.82;
+let bmi = weight / (height ** 2);
+console.log(bmi);
+
+//Implement a program that calculates the length of the hypotenuse of a right triangle using the lengths of the other two sides as inputs. Display the result. Input: 3, 4 Output: 5
+let a = 3;
+let b = 4;
+let hypotenuse = Math.sqrt((a ** 2) + (b ** 2));
+console.log(hypotenuse);
+
+//Implement a program that takes a number input representing seconds and converts it to minutes and remaining seconds, then displays the result. Input: 111 Output: 1 minute(s) and 51 second(s
+let totalSeconds = 111;
+let minits = Math.floor(totalSeconds / 60);
+let secinds = totalSeconds % 60;
+console.log(`${minits} minute(s) and ${secinds} second(s)`);
