@@ -18,7 +18,7 @@ console.log(--numberOfBottles);
 
 let x = 5 + 5;
 console.log(x);
-//month 2
+//month 1
 let bank = 5;
 let income = 6;
 
@@ -67,7 +67,32 @@ console.log(gold);
 
 
 
+
+
+
+let numberOfWins = 0;
+const totalWins = "Total of wins";
+const newTotalWins = "If you manage to win a game your new total will be"
+
+console.log(numberOfWins)
+console.log(totalWins);
+console.log(newTotalWins);
+numberOfWins += 1;
+console.log(numberOfWins);
+
+console.log(numberOfWins)
+console.log(totalWins);
+console.log(newTotalWins);
+numberOfWins += 1;
+console.log(numberOfWins);
+
+// Implement a program that takes two numbers as input and displays their division result.
+// Input: 11, 4
+// Output: 2.75
+
 let input1Q4 = 11;
 let input2Q4 = 4;
-let output
-;
+let output2Q4 = input1Q4 / input2Q4;
+console.log(output2Q4);
+
+
